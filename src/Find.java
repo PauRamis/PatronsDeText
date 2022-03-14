@@ -8,8 +8,8 @@ String paraula;
     }
 
     public boolean match(String stringPat) {
-        if (this.paraula.contains(stringPat) && stringPat != "")
-            return true;
-        return false;
+        if (stringPat == "")
+            return false;
+        return this.paraula.contains(stringPat);
     }
 }
