@@ -1,8 +1,10 @@
 import java.util.List;
+import java.util.regex.Pattern;
 
 
 public class Find {
 String paraula;
+
     public Find(String s) {
         this.paraula = s;
     }
