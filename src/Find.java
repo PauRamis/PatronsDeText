@@ -12,4 +12,10 @@ String paraula;
             return false;
         return this.paraula.contains(stringPat);
     }
+
+
+
+    public Object capture(String s) {
+        return s;
+    }
 }
