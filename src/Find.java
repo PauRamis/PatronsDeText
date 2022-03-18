@@ -10,6 +10,7 @@ String paraula;
     }
 
     public boolean match(String stringPat) {
+        Pattern pattern = new Pattern<>();
         if (stringPat == "")
             return false;
         return this.paraula.contains(stringPat);

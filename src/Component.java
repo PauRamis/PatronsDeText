@@ -1,11 +1,11 @@
 public class Component {
-    char chArray [];
-    public class Enum {
-        char Nchar;
-        char Qchar;
-        char BOL;
-        char EOL;
-        char Cclass;
-        char Cconjunt;
+    private char[] chArray;
+
+    private enum types{
+        Nchar, Qmark, BOL, EOL, Cclass, Cconjunt
     }
+
+    private types type;
+
+
 }
