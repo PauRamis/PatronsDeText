@@ -1,4 +1,4 @@
-class Caixa<T> {
+public class Caixa<T> {
     private Object[] objectArray;
     private int nobj = 0;
     private int capacity = 0;

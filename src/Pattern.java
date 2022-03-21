@@ -1,4 +1,5 @@
-public class Pattern {
-Caixa component = new Caixa();
+class Pattern {
+    Caixa component = new Caixa();
+    //component.addElement(5);
 }
 
