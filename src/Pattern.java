@@ -1,5 +1,8 @@
 class Pattern {
     Caixa component = new Caixa();
-    //component.addElement(5);
+
+    public void adcomp(Object current) {
+        component.addElement(current);
+    }
 }
 

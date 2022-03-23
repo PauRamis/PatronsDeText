@@ -57,4 +57,5 @@ public class Caixa<T> {
         }
         throw new RuntimeException("Posició inexistent");
     }
+
 }
